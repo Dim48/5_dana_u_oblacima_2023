@@ -5,9 +5,9 @@ Express.js
 
 Docker
 
-# Kao package manager koriscen NPM
+Kao package manager koriscen NPM
 
-# Za resenje je kompletno koriscen opensource software
+Za resenje je kompletno koriscen opensource software
 
 # Uputstvo za build (2 nacina):
 
