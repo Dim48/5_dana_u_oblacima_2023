@@ -15,7 +15,7 @@ Za resenje je kompletno koriscen opensource software
 
 -preuzmite `docker-compose.yaml` fajl
 
--pokrenite `docker compose` komandu.
+-pokrenite `docker compose up` komandu.
 
 2) U suprotnom:
 
@@ -25,4 +25,4 @@ Za resenje je kompletno koriscen opensource software
 
 -`node index.js`
 
-# API ce biti hostovan na http://localhost:3000/
+# Server ce biti pokrenut na http://localhost:3000/
