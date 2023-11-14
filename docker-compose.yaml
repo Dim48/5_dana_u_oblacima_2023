@@ -1,0 +1,5 @@
+services:
+  api:
+    image: zd48/5_dana_u_oblacima_2023:expressAPI
+    ports:
+      - "3000:3000"
