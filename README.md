@@ -1,9 +1,9 @@
 # Tehnologije koriscene:
-Node.js
+-Node.js
 
-Express.js
+-Express.js
 
-Docker
+-Docker
 
 Kao package manager koriscen NPM
 
