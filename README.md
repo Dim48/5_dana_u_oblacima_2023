@@ -5,6 +5,8 @@
 
 -`Docker` za kontejnerizaciju aplikacije kako bi bila lako prenosiva i da bi radila na svakoj masini
 
+-`Mocha` framework za Unit testove uz `Chai` biblioteku
+
 Kao package manager koriscen NPM
 
 Za resenje je kompletno koriscen opensource software
