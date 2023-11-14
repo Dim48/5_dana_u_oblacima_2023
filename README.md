@@ -1,9 +1,9 @@
 # Tehnologije koriscene:
--Node.js
+-`Node.js` kao popularan runtime environment
 
--Express.js
+-`Express.js` kao backend framework jer je lightweight i radi lepo uz Node.js
 
--Docker
+-`Docker` za kontejnerizaciju aplikacije kako bi bila lako prenosiva i da bi radila na svakoj masini
 
 Kao package manager koriscen NPM
 
@@ -20,6 +20,8 @@ Za resenje je kompletno koriscen opensource software
 -pokrenite `docker compose up` komandu.
 
 2) U suprotnom:
+
+-preduslov je imate instaliran Node.js verzije 16
 
 -`git clone` da klonirate ovaj repozitorijum
 
