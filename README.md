@@ -25,4 +25,4 @@ Za resenje je kompletno koriscen opensource software
 
 -`node index.js`
 
-# API ce biti hostovan na http://localhost:3000
+# API ce biti hostovan na http://localhost:3000/
