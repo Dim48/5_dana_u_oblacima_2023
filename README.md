@@ -19,10 +19,10 @@ Za resenje je kompletno koriscen opensource software
 
 2) U suprotnom:
 
--git clone
+-`git clone`
 
--npm install
+-`npm install`
 
--node index.js
+-`node index.js`
 
 # API ce biti hostovan na http://localhost:3000
