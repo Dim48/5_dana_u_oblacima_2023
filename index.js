@@ -37,3 +37,5 @@ app.get("/stats/player/:playerFullName", (req, res) => {
         res.send(JSON.stringify(statistics[req.params.playerFullName]));
     }
 });
+
+module.exports = app;
