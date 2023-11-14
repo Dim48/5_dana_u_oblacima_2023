@@ -67,7 +67,7 @@ const onServerStart = () => {
     return new Promise((resolve, reject) => {
         let startData = {};
 
-        fs.createReadStream("../L9HomeworkChallengePlayersInput.csv")
+        fs.createReadStream("./L9HomeworkChallengePlayersInput.csv")
             .pipe(parse({delimiter: ",", from_line: 2}))
             .on("data", function (row) {
                 const data = row.slice(2, 13).map(function (val) {
