@@ -1,9 +1,9 @@
 # Tehnologije koriscene:
--Node.js
+-`Node.js` kao popularan runtime environment
 
--Express.js
+-`Express.js` kao backend framework jer je lightweight i radi lepo uz Node.js
 
--Docker
+-`Docker` za kontejnerizaciju aplikacije kako bi bila lako prenosiva i da bi radila na svakoj masini
 
 Kao package manager koriscen NPM
 
@@ -15,14 +15,18 @@ Za resenje je kompletno koriscen opensource software
 
 -preuzmite `docker-compose.yaml` fajl
 
--pokrenite `docker compose` komandu.
+-preko komandne linije kao `working directory` folder gde se nalazi skinuti fajl preko `cd` komande
+
+-pokrenite `docker compose up` komandu.
 
 2) U suprotnom:
 
--`git clone`
+-preduslov je imate instaliran Node.js verzije 16
 
--`npm install`
+-`git clone` da klonirate ovaj repozitorijum
 
--`node index.js`
+-`npm install` unutar foldera repozitorijuma, da resite zavisnosti
 
-# API ce biti hostovan na http://localhost:3000/
+-`node index.js` da pokrenete server
+
+# Server ce biti pokrenut na http://localhost:3000/
