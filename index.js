@@ -27,7 +27,9 @@ onStartUP(() => app.listen(3000, () => console.log("Server listening at port 300
 //valid playerName results in JSON response (stats)
 app.get("/stats/player/:playerFullName", (req, res) => {
     if (!(req.params.playerFullName in statistics))
-        res.status(404).send();
+        res.status(404).send({
+            "Explanation": "Player not found"
+        });
 
     else {
         res.status(200);
