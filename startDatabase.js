@@ -98,4 +98,9 @@ const onServerStart = () => {
     });
 };
 
-module.exports = onServerStart;
+module.exports = {
+    roundOneDecimal: roundOneDecimal,
+    onServerStart: onServerStart,
+    update: update,
+    calculateStatistics: calculateStatistics
+};

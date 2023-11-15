@@ -1,5 +1,5 @@
 const express = require("express");
-const onServerStart = require("./startDatabase");
+const {onServerStart} = require("./startDatabase");
 
 //cache the data from csv file and calculate the required statistics in this object
 //in form of {key, value} pairs, with key being the player fullName and value stats for him
