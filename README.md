@@ -31,7 +31,7 @@ Za resenje je kompletno koriscen opensource software
 
 -`node index.js` da pokrenete server
 
-# Server ce biti pokrenut na http://localhost:3000/
+# Api ce biti pokrenut na http://localhost:3000/
 
 # Uputstvo za test:
 
