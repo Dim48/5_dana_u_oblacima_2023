@@ -1,38 +1,39 @@
-# Tehnologije koriscene:
--`Node.js` kao popularan runtime environment
+## Tehnologije koriscene:
 
--`Express.js` kao backend framework jer je lightweight i radi lepo uz Node.js
+- `Node.js` kao popularan runtime environment
 
--`Docker` za kontejnerizaciju aplikacije kako bi bila lako prenosiva i da bi radila na svakoj masini
+- `Express.js` kao backend framework jer je lightweight i radi lepo uz Node.js
 
--`Mocha` framework za Unit testove uz `Chai` biblioteku
+- `Docker` za kontejnerizaciju aplikacije kako bi bila lako prenosiva i da bi radila na svakoj masini
 
-Kao package manager koriscen NPM
+- `Mocha` framework za Unit testove uz `Chai` biblioteku
+
+- Kao package manager koriscen [npm](https://www.npmjs.com/)
 
 Za resenje je kompletno koriscen opensource software
 
-# Uputstvo za build (2 nacina):
+## Uputstvo za build (2 nacina):
 
-1) Ukoliko imate Docker instaliran:
+    1) Ukoliko imate Docker instaliran:
 
--preuzmite `docker-compose.yaml` fajl
+- preuzmite `docker-compose.yaml` fajl
 
--preko komandne linije kao `working directory` folder gde se nalazi skinuti fajl preko `cd` komande
+- preko komandne linije kao `working directory` folder gde se nalazi skinuti fajl preko `cd` komande
 
--pokrenite `docker compose up` komandu.
+- pokrenite `docker compose up` komandu.
 
-2) U suprotnom:
+    2) U suprotnom:
 
--preduslov je imate instaliran Node.js verzije 16
+- preduslov je imate instaliran Node.js verzije 16
 
--`git clone` da klonirate ovaj repozitorijum
+- `git clone` da klonirate ovaj repozitorijum
 
--`npm install` unutar foldera repozitorijuma, da resite zavisnosti
+- `npm install` unutar foldera repozitorijuma, da resite zavisnosti
 
--`node index.js` da pokrenete server
+- `node index.js` da pokrenete server
 
-# Api ce biti pokrenut na http://localhost:3000/
+### Api ce biti pokrenut na http://localhost:3000/
 
-# Uputstvo za test:
+## Uputstvo za test:
 
--pozivanje komande `npm test` unutar foldera repozitorijuma
+- Komanda `npm test` unutar foldera repozitorijuma
