@@ -2,7 +2,7 @@
 
 - `Node.js` kao popularan runtime environment
 
-- `Express.js` kao backend framework jer je lightweight i radi lepo uz Node.js
+- `Express.js` kao backend framework jer je lightweight
 
 - `Docker` za kontejnerizaciju aplikacije kako bi bila lako prenosiva i da bi radila na svakoj masini
 
